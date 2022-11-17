@@ -8,7 +8,7 @@ import org.apache.xmlrpc.webserver.WebServer;
 
 public class RpcServer {
 	public static void main(String[] args) throws XmlRpcException, IOException {
-		int port = 4500;
+		int port = 4650;
 		
 		WebServer webServer = new WebServer(port);
 		XmlRpcServer xmlRpcServer = webServer.getXmlRpcServer();
